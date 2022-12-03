@@ -1,0 +1,22 @@
+.section4{
+    padding: 30px 0;
+    .div1{
+        justify-content: space-between;
+        .flex{
+            gap: 10px;
+        }
+        .link_a {
+            gap: 8px;
+            padding: 12px 28px;
+            border: 1.5px solid #003459;
+            border-radius: 57px;
+            
+                    &:hover {
+                        background-color: #FFE7BA;
+                    }
+        }
+    }
+    .div2{
+        justify-content: space-between;
+    }
+}

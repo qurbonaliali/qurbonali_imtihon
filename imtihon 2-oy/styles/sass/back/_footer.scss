@@ -1,0 +1,63 @@
+.footer {
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: 40px 40px 0px 0px;
+    padding-top:80px ;
+
+    .programs {
+        width: 100%;
+        padding: 32px;
+        gap: 20px;
+        background-color: #003459;
+        border-radius: 16px;
+
+        h4 {
+            width: 380px;
+            font-size: 24px;
+            line-height: 36px;
+            color: #FDFDFD;
+        }
+
+        .form {
+            padding: 12px;
+            background-color: #FDFDFD;
+            border-radius: 14px;
+            justify-content: space-between;
+
+            .input {
+                color: #99A2A5;
+                font-weight: 500;
+                width:450px;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 14px 28px;
+                border: 1px solid #99A2A5;
+border-radius: 8px;
+            }
+
+            .button {
+                margin-left: 40px;
+                padding: 12px 30px;
+                background: #003459;
+                border-radius: 8px;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FDFDFD;
+            }
+        }
+    }
+    .uls_li{
+        justify-content: space-between;
+        padding: 40px 10px;
+        border-bottom: 1px solid  #003459;
+        .uls1{
+            gap: 60px;
+        }
+        .uls2{
+            gap: 50px;
+        }
+    }
+    .footer_and{
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+}

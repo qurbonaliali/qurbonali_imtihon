@@ -1,0 +1,200 @@
+.header {
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: 0px 0px 40px 40px;
+
+    .nav1 {
+        justify-content: space-between;
+        padding: 30px 0;
+
+        .dropdown1 {
+            display: none;
+            
+        }
+
+        .menu {
+            padding-left: 50px;
+            gap: 48px;
+            padding-right: 36px;
+        }
+
+        .input {
+            .input_img {
+                position: absolute;
+                z-index: 7;
+                top: 40px;
+                // left: 30px;
+                left: 51%;
+                // right: 8.37%;
+                // top: 8.25%;
+                // bottom: 8.43%;
+            }
+
+            .input-field {
+                cursor: pointer;
+                padding: 10px 69px 10px 48px;
+                background: #FDFDFD;
+                outline: 0;
+                border: 2px solid #003459;
+                border-radius: 46px;
+                color: #99A2A5;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .input-field::placeholder {
+                color: #99A2A5;
+            }
+
+            .icon {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .input-field:focus {
+                background-color: grey;
+                color: white;
+                border: 2px solid white;
+            }
+
+            i {
+                position: absolute;
+                font-size: 18px;
+                right: 93%;
+                top: 30%;
+            }
+        }
+
+        .link {
+
+            .link_a {
+                padding: 11px 28px;
+                border: 1px solid #003459;
+                background-color: #003459;
+                border-radius: 57px;
+                color: #FDFDFD;
+
+                &:hover {
+                    background-color: #FDFDFD;
+                    color: #003459;
+                }
+            }
+        }
+
+        .language {
+            .dropdown {
+                width: 60px;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 23px;
+
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 23px;
+
+                }
+
+                .toggler {
+                    justify-content: space-between;
+
+                    .toggler_img {
+                        border-radius: 50%;
+                        transition: .3s;
+                    }
+                }
+
+                .drodown_menu {
+                    overflow: hidden;
+                    height: 0;
+                    transition: .3s;
+                    position: absolute;
+                    border-radius: 10px;
+                    background-color: #FDFDFD;
+                    width: 60px;
+                    box-shadow: 0px 4px 60px -2px rgba(0, 0, 0, 0.12);
+                }
+            }
+
+            .dropdown:hover .toggler_img {
+                transform: rotate(360deg);
+            }
+
+            .dropdown:hover .drodown_menu {
+                height: 50px;
+
+                .dropdown_icon:hover {
+                    background-color: #003459;
+                    color: #FDFDFD;
+                }
+            }
+
+        }
+
+        .lupa {
+            display: none;
+        }
+
+    }
+
+    .nav2 {
+        justify-content: space-between;
+
+        .text1 {
+            width: 500px;
+
+            h2 {
+                padding-bottom: 24px;
+            }
+
+            p {
+                padding-bottom: 34px;
+            }
+
+            .links {
+                gap: 20px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+
+                .links_a {
+                    gap: 11px;
+                    padding: 12px 34px;
+                    border: 1.5px solid #003459;
+                    border-radius: 57px;
+                }
+
+                .links_a:hover {
+                    background-color: #FDFDFD;
+                }
+
+                .links_b {
+                    border: 1px solid#003459;
+                    background: #003459;
+                    border-radius: 57px;
+                    padding: 13px 35px;
+                    color: #FDFDFD;
+                }
+
+                .links_b:hover {
+                    background-color: #FCEED5;
+                    color: #003459;
+                }
+
+            }
+
+        }
+    }
+}

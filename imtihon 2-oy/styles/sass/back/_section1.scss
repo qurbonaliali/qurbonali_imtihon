@@ -1,0 +1,56 @@
+.section1 {
+    padding: 30px 0;
+    .flex {
+        padding-bottom: 28px;
+        justify-content: space-between;
+
+        .link_a {
+            gap: 8px;
+            padding: 12px 28px;
+            border: 1.5px solid #003459;
+            border-radius: 57px;
+            
+                    &:hover {
+                        background-color: #FFE7BA;
+                    }
+        }
+    }
+
+    .parent1 {
+        height: 776px;
+        display: grid;
+        grid-template-columns: repeat(4, 280px);
+        grid-template-rows: repeat(2, 378px);
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .child {
+            padding: 8px;
+            background: #FDFDFD;
+            box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+            border-radius: 12px;
+
+            .flex {
+                padding: 8px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+
+        }
+    }
+    .link_c {
+        display: none;
+        padding: 12px 0;
+        height: 48px;
+        border: 1.5px solid #003459;
+        border-radius: 57px;
+        .flex{
+            gap: 8px;
+            &:hover {
+                background-color: #FFE7BA;
+            }
+        }
+    }
+}
